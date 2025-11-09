@@ -22,7 +22,7 @@ An Android application built using **Kotlin** and **Android Studio** that displa
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/DogBreedsAPIViewer.git
+   git clone https://github.com/Sadeepadilshanpemasiri/DogBreedsAPIViewer.git
    ```
 2. Open the project in **Android Studio**.
 3. Let Gradle sync automatically.
