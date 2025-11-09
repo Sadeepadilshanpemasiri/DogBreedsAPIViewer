@@ -1,6 +1,6 @@
 package com.example.dogbreedsapiviewer
 
-// --- IMPORTS FOR A CLEAN, WORKING APP ---
+
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent

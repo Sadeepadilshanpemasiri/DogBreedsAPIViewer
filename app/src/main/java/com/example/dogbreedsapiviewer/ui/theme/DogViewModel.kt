@@ -16,7 +16,7 @@ class DogBreedsViewModel : ViewModel() {
     private val apiService = RetrofitClient.apiService
 
     companion object {
-        private const val IMAGE_BATCH_SIZE = 15 // Number of images to fetch each time
+        private const val IMAGE_BATCH_SIZE = 15
     }
 
     init {
@@ -24,7 +24,7 @@ class DogBreedsViewModel : ViewModel() {
         fetchDogImages(isInitialLoad = true)
     }
 
-    // New function to be called from the UI when more images are needed
+
     fun loadMoreImages() {
         // Prevent multiple simultaneous loads
         if (_uiState.value.isLoading) return

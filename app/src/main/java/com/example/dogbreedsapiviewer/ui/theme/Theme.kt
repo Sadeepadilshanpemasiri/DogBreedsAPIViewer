@@ -42,7 +42,7 @@ fun DogBreedsAPIViewerTheme(
 
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = MaterialTheme.typography, // You can also define a custom Typography here
+        typography = MaterialTheme.typography,
         content = content
     )
 }
