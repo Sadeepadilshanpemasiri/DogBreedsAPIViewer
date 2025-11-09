@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DogBreedsAPIViewer</string>
+    <!-- ADD THIS LINE -->
+    <string name="unknown_error">An unknown error occurred.</string>
+</resources>
